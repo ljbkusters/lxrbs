@@ -2,7 +2,7 @@
 
 echo "Installing git, make, node, npm, gcc, g++"
 
-sudo apt-get install git make node npm pip gcc g++ -y
+sudo apt-get install git make nodejs npm pip gcc g++ -y
 
 version=3.16
 build=2

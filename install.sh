@@ -13,6 +13,8 @@ scriptdir=subscripts
 cd ~
 echo "Updating apt repositories..."
 sudo apt-get update
+echo "Installing prerequisites..."
+sudo apt-get install software-propperties-common
 
 sudo sh $scriptdir/graphical-environment.sh
 sudo sh $scriptdir/development-tools.sh
