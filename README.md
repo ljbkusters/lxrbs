@@ -35,34 +35,32 @@ The functionality of this script to install
 
 |Impl. | Software        | Install Method    | Purpose                      |
 |-----:|:----------------|:------------------|:-----------------------------|
-|      | i3              | apt repo          | window manager               |
-|      | i3 gaps         | source (GitHub)   |                              |
-|      | polybar         | source (GitHub)   | i3-bar replacement           |
-|      | compton         | apt repo          | compositor                   |
-|      | feh             | apt repo          | BG-setter                    |
-|      | htop            | apt repo          | task manager                 |
-|      | urxvt           | apt repo          | terminal                     |
-|      | zsh             | apt repo          | shell                        |
-|      | oh my zsh       | source (GitHub)   | zsh but for zoomers          |
-|      | vim (8.x)       | source (GitHub)   | text editor                  |
-|      | vundle          | source (GitHub)   | vim plugin manager           |
-|      | powerbar-fonts  | apt repo          | vim *a e s t h e t i c s*    |
-|      | latex           | apt repo          | typesetting software         |
-|      | libre office    | apt repo          | mainly for opening exel files|
-|      | pandoc          | apt repo          | document converter           |
-|      | ranger          | apt repo          | file browser                 |
-|      | chromium-browser| apt repo          | internet browser             |
-|      | git             | apt repo          | git                          |
-|      | cmake 3.15+     | source (GitHub)   | c/c++ compiler               |
-|      | node            | source (GitHub)   | js based server dev software |
-|      | npm             | source (GitHub)   | node package manager         |
-|      | python 3.x      | apt repo          | python                       |
-|      | pip             | apt repo          | (python) package manager     |
-|      | anaconda        | apt repo          | python modules (for zoomers) |
-|      | dotfiles        | source (GitHub)   | For ricing purposes          |
-|      | neofetch        | source (GitHub)   | For fun/ricing               |
-|      | cli-visualizer  | source (GitHub)   | Sound visualizer (ricing)    |
-|      | c-matrix        | source (GitHub)   | Epic hacker mode             |
+|    x | i3 gaps         | custom apt repo   | window manager               |
+|    x | polybar         | custom apt repo   | i3-bar replacement           |
+|    x | compton         | apt repo          | compositor                   |
+|    x | feh             | apt repo          | BG-setter                    |
+|    x | htop            | apt repo          | task manager                 |
+|    x | urxvt           | apt repo          | terminal                     |
+|    x | zsh             | apt repo          | shell                        |
+|    x | oh my zsh       | source (GitHub)   | zsh but for zoomers          |
+|    x | ranger          | apt repo          | file browser                 |
+|    x | chromium-browser| apt repo          | internet browser             |
+|    x | git             | apt repo          | git                          |
+|    x | make            | apt repo          | c/c++ compiler wrapper       |
+|    x | cmake 3.16      | cmake website     | make wrapper                 |
+|    x | node            | source (GitHub)   | js based server dev software |
+|    x | npm             | source (GitHub)   | node package manager         |
+|    x | miniconda       | website           | python + pyth. module manager|
+|    x | vim (8.x)       | source (GitHub)   | text editor                  |
+|    x | vundle          | source (GitHub)   | vim plugin manager           |
+|    x | powerbar-fonts  | apt repo          | vim *a e s t h e t i c s*    |
+|    x | latex (tex-live)| apt repo          | typesetting software         |
+|    x | libre office    | apt repo          | mainly for opening exel files|
+|    x | pandoc          | apt repo          | document converter           |
+|    x | dotfiles        | source (GitHub)   | For ricing purposes          |
+|    x | neofetch        | apt repo          | For fun/ricing               |
+|    x | cli-visualizer  | source (GitHub)   | Sound visualizer (ricing)    |
+|    x | c-matrix        | apt repo          | Epic hacker mode             |
 
 Other:
 + My .vimrc contains many plugins that will automatically be installed
