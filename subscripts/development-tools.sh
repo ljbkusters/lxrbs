@@ -1,15 +1,15 @@
 #!/bin/sh
 
-echo "Installing git, make, node, npm"
+echo "Installing git, make, node, npm, gcc, g++"
 
-sudo apt-get install git make node npm pip -y
+sudo apt-get install git make node npm pip gcc g++ -y
 
 version=3.16
 build=2
 
 echo "Getting cmake version $version.$build..."
 
-if [ ![-d ~/temp]  ]; then
+if [ ! -d ~/temp   ]; then
   echo "Creating temp/ directory..."
   mkdir ~/temp
 fi

@@ -1,7 +1,16 @@
 #!/bin/sh
 
+echo "Installing LXRBS in"
+echo "3..."
+sleep 1
+echo "2..."
+sleep 1
+echo "1..."
+sleep 1
+
 scriptdir=subscripts
 
+cd ~
 echo "Updating apt repositories..."
 sudo apt-get update
 
@@ -18,4 +27,4 @@ echo "Finishing up..."
 echo "Cleaning up '~temp/' directory..."
 cd ~
 sudo rm -r ~/temp/*
-echo "Done! Enjoy!"
+echo "Done!"

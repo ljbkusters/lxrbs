@@ -2,7 +2,7 @@
 
 echo "Installing miniconda..."
 echo "Changing into temp/"
-if [ ![ -d ~/temp ] ] ; then
+if [ !  -d ~/temp   ] ; then
   mkdir ~/temp
 fi
 cd ~/temp

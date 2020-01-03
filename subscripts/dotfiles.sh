@@ -2,6 +2,10 @@
 
 configrepo=https://gitlab.com/ljbkusters/dotfiles
 echo "Changing into temp/"
+if [ ! -d ~/temp   ]; then
+  echo "Creating temp/ directory..."
+  mkdir ~/temp
+fi
 cd ~/temp
 echo "Grabbing dotfiles repository from $configrepo..."
 git clone $configrepo 

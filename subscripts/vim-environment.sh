@@ -2,7 +2,7 @@
 
 #get vim from source
 
-if [ ![ -d ~/temp/ ] ]; then
+if [ ! -d ~/temp/  ]; then
   mkdir ~/temp/
 fi
 echo "Changing into ~/temp/"
