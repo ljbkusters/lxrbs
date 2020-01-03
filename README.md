@@ -57,9 +57,10 @@ The functionality of this script to install
 |    x | latex (tex-live)| apt repo          | typesetting software         |
 |    x | libre office    | apt repo          | mainly for opening exel files|
 |    x | pandoc          | apt repo          | document converter           |
+|    x | zathura         | apt repo          | pdf viewer                   |
 |    x | dotfiles        | source (GitHub)   | For ricing purposes          |
 |    x | neofetch        | apt repo          | For fun/ricing               |
-|    x | cli-visualizer  | source (GitHub)   | Sound visualizer (ricing)    |
+|    x | cli-visualizer  | custom apt repo   | Sound visualizer (ricing)    |
 |    x | c-matrix        | apt repo          | Epic hacker mode             |
 
 Other:

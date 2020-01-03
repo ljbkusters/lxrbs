@@ -14,13 +14,14 @@ cd ~
 echo "Updating apt repositories..."
 sudo apt-get update
 echo "Installing prerequisites..."
-sudo apt-get install software-propperties-common
+sudo apt-get install software-properties-common -y
 
 sudo sh $scriptdir/graphical-environment.sh
 sudo sh $scriptdir/development-tools.sh
 sudo sh $scriptdir/terminal.sh
 sudo sh $scriptdir/python.sh
 sudo sh $scriptdir/vim-environment.sh
+sudo sh $scriptdir/documents.sh
 sudo sh $scriptdir/ricing.sh
 sudo sh $scriptdir/other.sh
 sudo sh $scriptdir/dotfiles.sh

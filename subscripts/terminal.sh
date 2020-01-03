@@ -1,4 +1,7 @@
 #!/bin/sh
+echo "------------------------------------------"
+echo "terminal"
+echo "------------------------------------------"
 
 echo "Installing urxvt, zsh, htop..."
 sudo apt-get install rxvt-unicode zsh htop -y

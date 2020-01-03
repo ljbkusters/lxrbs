@@ -1,7 +1,14 @@
 #!/bin/sh
+echo "------------------------------------------"
+echo "ricing"
+echo "------------------------------------------"
 
+echo "Adding neofetch apt repository..."
+sudo add-apt-repository ppa:dawidd0811/neofetch
+echo "Updating apt..."
+sudo apt update
 echo "Installing neofetch, c-matrix..."
-sudo apt-get install neofetch c-matrix -y
+sudo apt-get install c-matrix neofetch -y
 
 echo "Installing cli-visualizer..."
 echo "Getting dependencies: libfftw3-dev libncursesw5-dev libpulse-dev"

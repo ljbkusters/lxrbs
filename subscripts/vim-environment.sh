@@ -1,7 +1,12 @@
 #!/bin/sh 
+echo "------------------------------------------"
+echo "vim-environment"
+echo "------------------------------------------"
 
 #get vim from source
 
+echo "Installing prerequisite ncurses library"
+sudo apt-get install libncursesw5-dev
 if [ ! -d ~/temp/  ]; then
   mkdir ~/temp/
 fi
