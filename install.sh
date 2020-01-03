@@ -8,7 +8,7 @@ sleep 1
 echo "1..."
 sleep 1
 
-lxrbsroot="${pwd}"
+lxrbsroot=`pwd`
 scriptdir=${lxrbsroot}/subscripts
 cd ~
 echo "Updating apt repositories..."
