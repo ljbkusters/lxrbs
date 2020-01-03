@@ -8,8 +8,8 @@ sleep 1
 echo "1..."
 sleep 1
 
-scriptdir=subscripts
-
+lxrbsroot="${pwd}"
+scriptdir=${lxrbsroot}/subscripts
 cd ~
 echo "Updating apt repositories..."
 sudo apt-get update
