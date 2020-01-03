@@ -7,27 +7,27 @@ to auto-install and configure many programs as I like them configured. It
 is a somewhat minimalist environment. It can be run immediately after
 a fresh Ubuntu Xenial (16.04) install
 
-# LXRBS... That sounds familiar!
+## LXRBS... That sounds strangely familiar!
 Know Luke (the unaboomer) Smith maybe? The name is lifted from his LARBS
-scripts, only I made a version for Xenial (or later) Ubuntu and the scripts
-are all my own. I got sick something breaking and having to reinstall
+scripts, which I thought was funny because my name is almost the same as
+his. Only I made a version for Xenial(+) Ubuntu and the scripts
+are all my own. I got sick of something breaking and having to reinstall
 all software (note this only happened twice in 2.5 years) so I obviously had
 to spend hours upon hours automating the process.
 
 If you're more of an arch kind of fella yourself, and consider yourself of
-the lazy type, I recommend you checkout LARBS instead: 
-[there should be a link here at some point]
+the lazy type, I recommend you checkout LARBS instead: https://larbs.xyz/
 
-# Why even make LXRBS for Noobuntu? Why not LARBS-2-Electric-Boogaloo?
+## Why even make LXRBS for Noobuntu? Why not LARBS-2-Electric-Boogaloo?
 Personal preferences and convenience at this point in time for my 
 hardware/software setup. Also, Ubuntu is only Noobuntu if you're using 
 unity/gnome and install software graphically. (Right???)
 
-# Yeah but why Xenial though?!
+## Yeah but why Xenial though?!
 Again personal preferences and convenience for my hardware/software setup.
 Also, I like tinkering with shell scripts, leave me alone.
 
-# List of Packages and Software that will be installed
+## List of Packages and Software that will be installed
 **Note:** 
 Since many Xenial repo's are horribly outdated, some packages will be
 compiled from source. Others have to be compiled from source.
