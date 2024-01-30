@@ -1,6 +1,8 @@
 # LXRBS
 
-**NOTE: AT THIS POINT IN TIME THIS IS A WORK IN PROGRESS PROJECT!**
+**NOTE: AT THIS POINT IN TIME THE PROJECT HAS BEEN DEPRECATED**
+
+I have switched from using Ubuntu to Arch linux (btw) and have deprecated this repo.
 
 LXRBS (or Luc's Xenial Ricing and Bootstrapping Script) is a setup script
 to auto-install and configure many programs as I like them configured. It
